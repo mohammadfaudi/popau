@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mohammad Faudi</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+	<div class="container">
+		<div class="navbar">
+			<img src="logo mf/mf.png" class="logo">
+			<nav>
+				<ul id="menuList">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#tabel">Table</a></li>
+				<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<img src="icon/menu.png" class="icon" onclick="togglemenu()">
+		</div>
+		<div class="area-content">
+		<img src="gw.jpg" class="me" align="center">
+		<br>
+		<br>
+		<br>
+		<h1> Selamat Datang !</h1>
+		<p>Disini Anda bisa mencari tahu tentang Saya</p>
+	</div>
+		<br><br><br>
+	</div>
+</header>
+
+	<script type="text/javascript">
+		var menuList = document.getElementById("menuList");
+		menuList.style.maxHeight ="0px";
+		function togglemenu()
+		{
+			if(menuList.style.maxHeight=="0px")
+			{
+				menuList.style.maxHeight="150px";
+			}
+			else {
+				menuList.style.maxHeight="0px";
+			}
+		}
+	</script>
+</body>
+</html>
