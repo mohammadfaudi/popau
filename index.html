@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mohammad Faudi</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -8,17 +9,15 @@
 </head>
 <body>
 	<header>
-	<div class="container">
+	<div class="container" id="home">
 		<div class="navbar">
-			<img src="logo mf/mf.png" class="logo">
+			<label><img src="logo mf/mf.png" class="logo"></label>
 			<nav>
 				<ul id="menuList">
 				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#skills">Skills</a></li>
-				<li><a href="#tabel">Table</a></li>
 				<li><a href="#contact">Contact</a></li>
-				</ul>
 			</nav>
 			<img src="icon/menu.png" class="icon" onclick="togglemenu()">
 		</div>
@@ -28,12 +27,27 @@
 		<br>
 		<br>
 		<h1> Selamat Datang !</h1>
-		<p>Disini Anda bisa mencari tahu tentang Saya</p>
 	</div>
 		<br><br><br>
 	</div>
 </header>
-
+	<div class="sec1" id="about">
+		<h1>Tentang Saya</h1>
+		<div class="line"></div>
+		<br>
+		<p>Hi, saya Mohammad Faudi. Saya berumur 18 tahun, beralamat di jln. mushola mekarsari. saat ini saya  lagi belajar membuat website pribadi. saya tertarik mempelajari pemrograman web, karena menurut saya sangat menarik dan seru. Selain itu, saya juga suka video editing dan desain grafis. Salam Kenal ! </p>
+	</div>
+	<div class="sec2" id="skills">
+		<h1>Skill</h1>
+		<div class="line1"></div>
+		<br>
+		<p>
+			Seperti yang saya katakan, saya mempunyai beberapa skills. Walaupun belum expert, tetapi saya terus berusaha untuk mengembangkan skill saya. Berikut skill yang saya miliki. </p>
+					<li>Graphic Design</li>
+					<li>Video Editing</li>
+					<li>html</li>
+					<li>css</li>
+	</div>
 	<script type="text/javascript">
 		var menuList = document.getElementById("menuList");
 		menuList.style.maxHeight ="0px";
@@ -48,5 +62,19 @@
 			}
 		}
 	</script>
+	<footer>
+		<div class="footer" id="contact">
+			<h3>Contact</h3>
+			<br>
+			<ul class="social-media">
+				<li><a href="https://web.facebook.com/mohammad.faudi.1?_rdc=1&_rdr" title="facebook" target="blank"><i class="fa fa-facebook-f"></i></a></li>
+				<li><a href="https://www.instagram.com/p0pau_/" title="Instagram" target="blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="http://wa.link/n178sd" title="WhatsApp" target="blank"><i class="fa fa-whatsapp"></i></a></li>
+			</ul>
+			<div class="footer-bottom">
+				<p>Copyright &copy; Mohammad Faudi 2021 </p>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
